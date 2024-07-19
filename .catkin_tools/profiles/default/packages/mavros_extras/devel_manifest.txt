@@ -1,0 +1,8 @@
+mavros/mavros_extras
+/home/grsh/catkin_ws05/devel/.private/mavros_extras/cmake.lock /home/grsh/catkin_ws05/devel/./cmake.lock
+/home/grsh/catkin_ws05/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake /home/grsh/catkin_ws05/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+/home/grsh/catkin_ws05/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake /home/grsh/catkin_ws05/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+/home/grsh/catkin_ws05/devel/.private/mavros_extras/lib/libmavros_extras.so /home/grsh/catkin_ws05/devel/lib/libmavros_extras.so
+/home/grsh/catkin_ws05/devel/.private/mavros_extras/lib/pkgconfig/mavros_extras.pc /home/grsh/catkin_ws05/devel/lib/pkgconfig/mavros_extras.pc
+/home/grsh/catkin_ws05/devel/.private/mavros_extras/lib/mavros_extras/visualization /home/grsh/catkin_ws05/devel/lib/mavros_extras/visualization
+/home/grsh/catkin_ws05/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher /home/grsh/catkin_ws05/devel/lib/mavros_extras/servo_state_publisher

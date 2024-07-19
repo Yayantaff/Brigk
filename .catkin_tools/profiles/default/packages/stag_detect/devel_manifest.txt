@@ -1,0 +1,14 @@
+fiducials/stag_detect
+/home/grsh/catkin_ws05/devel/.private/stag_detect/cmake.lock /home/grsh/catkin_ws05/devel/./cmake.lock
+/home/grsh/catkin_ws05/devel/.private/stag_detect/share/stag_detect/cmake/stag_detectConfig-version.cmake /home/grsh/catkin_ws05/devel/share/stag_detect/cmake/stag_detectConfig-version.cmake
+/home/grsh/catkin_ws05/devel/.private/stag_detect/share/stag_detect/cmake/stag_detectConfig.cmake /home/grsh/catkin_ws05/devel/share/stag_detect/cmake/stag_detectConfig.cmake
+/home/grsh/catkin_ws05/devel/.private/stag_detect/share/stag_detect/docs/DetectorParamsConfig.wikidoc /home/grsh/catkin_ws05/devel/share/stag_detect/docs/DetectorParamsConfig.wikidoc
+/home/grsh/catkin_ws05/devel/.private/stag_detect/share/stag_detect/docs/DetectorParamsConfig-usage.dox /home/grsh/catkin_ws05/devel/share/stag_detect/docs/DetectorParamsConfig-usage.dox
+/home/grsh/catkin_ws05/devel/.private/stag_detect/share/stag_detect/docs/DetectorParamsConfig.dox /home/grsh/catkin_ws05/devel/share/stag_detect/docs/DetectorParamsConfig.dox
+/home/grsh/catkin_ws05/devel/.private/stag_detect/lib/libstag_core.so /home/grsh/catkin_ws05/devel/lib/libstag_core.so
+/home/grsh/catkin_ws05/devel/.private/stag_detect/lib/python3/dist-packages/stag_detect/__init__.py /home/grsh/catkin_ws05/devel/lib/python3/dist-packages/stag_detect/__init__.py
+/home/grsh/catkin_ws05/devel/.private/stag_detect/lib/python3/dist-packages/stag_detect/cfg/__init__.py /home/grsh/catkin_ws05/devel/lib/python3/dist-packages/stag_detect/cfg/__init__.py
+/home/grsh/catkin_ws05/devel/.private/stag_detect/lib/python3/dist-packages/stag_detect/cfg/DetectorParamsConfig.py /home/grsh/catkin_ws05/devel/lib/python3/dist-packages/stag_detect/cfg/DetectorParamsConfig.py
+/home/grsh/catkin_ws05/devel/.private/stag_detect/lib/stag_detect/stag_detect /home/grsh/catkin_ws05/devel/lib/stag_detect/stag_detect
+/home/grsh/catkin_ws05/devel/.private/stag_detect/lib/pkgconfig/stag_detect.pc /home/grsh/catkin_ws05/devel/lib/pkgconfig/stag_detect.pc
+/home/grsh/catkin_ws05/devel/.private/stag_detect/include/stag_detect/DetectorParamsConfig.h /home/grsh/catkin_ws05/devel/include/stag_detect/DetectorParamsConfig.h

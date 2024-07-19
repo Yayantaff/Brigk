@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/fiducial_msgs/share/fiducial_msgs/cmake/fiducial_msgs-msg-extras.cmake

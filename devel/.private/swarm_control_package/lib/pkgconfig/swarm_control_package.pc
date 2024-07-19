@@ -1,0 +1,8 @@
+prefix=/home/grsh/catkin_ws05/devel/.private/swarm_control_package
+
+Name: swarm_control_package
+Description: Description of swarm_control_package
+Version: 0.0.0
+Cflags: -I/home/grsh/catkin_ws05/devel/.private/swarm_control_package/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime geometry_msgs fiducial_msgs

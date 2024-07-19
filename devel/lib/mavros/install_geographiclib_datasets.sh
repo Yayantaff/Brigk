@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/mavros/lib/mavros/install_geographiclib_datasets.sh

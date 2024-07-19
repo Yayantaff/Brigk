@@ -1,0 +1,2 @@
+fiducials/fiducials
+/home/grsh/catkin_ws05/devel/.private/fiducials/cmake.lock /home/grsh/catkin_ws05/devel/./cmake.lock

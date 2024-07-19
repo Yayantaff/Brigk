@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/fiducial_slam/share/common-lisp/ros/fiducial_slam/srv/fiducial_slam-srv.asd

@@ -1,0 +1,153 @@
+[35m[1mScanning dependencies of target fiducial_msgs_generate_messages_nodejs[0m
+[  0%] Built target fiducial_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target fiducial_msgs_generate_messages_py[0m
+[  0%] Built target fiducial_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target fiducial_msgs_generate_messages_eus[0m
+[  0%] Built target fiducial_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target fiducial_msgs_generate_messages_lisp[0m
+[  0%] Built target fiducial_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target stag_core[0m
+[  4%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/Decoder.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/Drawer.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/EDInterface.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/Ellipse.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/Marker.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/PoseRefiner.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/Quad.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/QuadDetector.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/Stag.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/utility.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/ED.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/EDInternals.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/EDLines.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/GradientOperators.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/ImageSmooth.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/LineSegment.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/MyMath.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/NFA.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/stag_core.dir/src/stag/ED/ValidateEdgeSegments.cpp.o[0m
+[ 86%] [32m[1mLinking CXX shared library /home/grsh/catkin_ws05/devel/.private/stag_detect/lib/libstag_core.so[0m
+[ 86%] Built target stag_core
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[ 86%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[ 86%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target fiducial_msgs_generate_messages_cpp[0m
+[ 86%] Built target fiducial_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[ 86%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target stag_detect_gencfg[0m
+[ 91%] [34m[1mGenerating dynamic reconfigure files from cfg/DetectorParams.cfg: /home/grsh/catkin_ws05/devel/.private/stag_detect/include/stag_detect/DetectorParamsConfig.h /home/grsh/catkin_ws05/devel/.private/stag_detect/lib/python3/dist-packages/stag_detect/cfg/DetectorParamsConfig.py[0m
+Generating reconfiguration files for DetectorParams in stag_detect
+Wrote header file in /home/grsh/catkin_ws05/devel/.private/stag_detect/include/stag_detect/DetectorParamsConfig.h
+[ 91%] Built target stag_detect_gencfg
+[35m[1mScanning dependencies of target stag_detect[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/stag_detect.dir/src/stag_ros/stag_detect.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/grsh/catkin_ws05/devel/.private/stag_detect/lib/stag_detect/stag_detect[0m
+[100%] Built target stag_detect

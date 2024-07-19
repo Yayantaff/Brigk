@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/fiducial_slam/share/roseus/ros/fiducial_slam/srv/AddFiducial.l

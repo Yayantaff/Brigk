@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/aruco_detect/include/aruco_detect/DetectorParamsConfig.h

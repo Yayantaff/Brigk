@@ -1,0 +1,6 @@
+Symlinking /home/grsh/catkin_ws05/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Symlinking /home/grsh/catkin_ws05/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+Symlinking /home/grsh/catkin_ws05/devel/lib/libmavros_extras.so
+Symlinking /home/grsh/catkin_ws05/devel/lib/pkgconfig/mavros_extras.pc
+Symlinking /home/grsh/catkin_ws05/devel/lib/mavros_extras/visualization
+Symlinking /home/grsh/catkin_ws05/devel/lib/mavros_extras/servo_state_publisher

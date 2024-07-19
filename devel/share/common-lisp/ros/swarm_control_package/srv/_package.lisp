@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/common-lisp/ros/swarm_control_package/srv/_package.lisp

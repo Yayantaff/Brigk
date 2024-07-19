@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/fiducial_slam/include/fiducial_slam/AddFiducialResponse.h

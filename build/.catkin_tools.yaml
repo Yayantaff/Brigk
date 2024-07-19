@@ -1,0 +1,6 @@
+devel_space: /home/grsh/catkin_ws05/devel
+install: false
+install_space: /home/grsh/catkin_ws05/install
+profile: default
+source_space: /home/grsh/catkin_ws05/src
+workspace: /home/grsh/catkin_ws05

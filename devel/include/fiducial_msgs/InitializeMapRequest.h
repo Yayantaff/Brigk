@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/fiducial_msgs/include/fiducial_msgs/InitializeMapRequest.h

@@ -1,0 +1,1 @@
+/home/grsh/catkin_ws05/devel/.private/fiducial_slam/lib/python3/dist-packages/fiducial_slam/srv/__init__.py
