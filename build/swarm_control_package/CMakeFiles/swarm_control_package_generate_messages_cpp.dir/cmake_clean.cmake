@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/grsh/catkin_ws05/devel/.private/swarm_control_package/include/swarm_control_package/FiducialTransform.h"
   "/home/grsh/catkin_ws05/devel/.private/swarm_control_package/include/swarm_control_package/FiducialTransformArray.h"
   "/home/grsh/catkin_ws05/devel/.private/swarm_control_package/include/swarm_control_package/NewTarget.h"
+  "/home/grsh/catkin_ws05/devel/.private/swarm_control_package/include/swarm_control_package/SpecialCommands.h"
   "CMakeFiles/swarm_control_package_generate_messages_cpp"
 )
 

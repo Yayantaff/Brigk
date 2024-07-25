@@ -6,4 +6,6 @@
   :components ((:file "_package")
     (:file "NewTarget" :depends-on ("_package_NewTarget"))
     (:file "_package_NewTarget" :depends-on ("_package"))
+    (:file "SpecialCommands" :depends-on ("_package_SpecialCommands"))
+    (:file "_package_SpecialCommands" :depends-on ("_package"))
   ))

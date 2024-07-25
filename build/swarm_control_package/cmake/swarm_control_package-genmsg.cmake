@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "swarm_control_package: 2 messages, 1 services")
+message(STATUS "swarm_control_package: 2 messages, 2 services")
 
 set(MSG_I_FLAGS "-Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg")
 
@@ -19,17 +19,22 @@ add_custom_target(swarm_control_package_generate_messages ALL)
 
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg" NAME_WE)
 add_custom_target(_swarm_control_package_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "swarm_control_package" "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg" "geometry_msgs/Vector3:geometry_msgs/Transform:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "swarm_control_package" "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg" "geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/Vector3"
 )
 
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg" NAME_WE)
 add_custom_target(_swarm_control_package_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "swarm_control_package" "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg" "geometry_msgs/Transform:geometry_msgs/Vector3:std_msgs/Header:swarm_control_package/FiducialTransform:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "swarm_control_package" "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg" "std_msgs/Header:geometry_msgs/Transform:geometry_msgs/Quaternion:swarm_control_package/FiducialTransform:geometry_msgs/Vector3"
 )
 
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv" NAME_WE)
 add_custom_target(_swarm_control_package_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "swarm_control_package" "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv" "geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "swarm_control_package" "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv" ""
+)
+
+get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv" NAME_WE)
+add_custom_target(_swarm_control_package_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "swarm_control_package" "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv" ""
 )
 
 #
@@ -41,13 +46,13 @@ add_custom_target(_swarm_control_package_generate_messages_check_deps_${_filenam
 _generate_msg_cpp(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/swarm_control_package
 )
 _generate_msg_cpp(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/swarm_control_package
 )
 
@@ -55,7 +60,13 @@ _generate_msg_cpp(swarm_control_package
 _generate_srv_cpp(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/swarm_control_package
+)
+_generate_srv_cpp(swarm_control_package
+  "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/swarm_control_package
 )
 
@@ -77,6 +88,8 @@ get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_packa
 add_dependencies(swarm_control_package_generate_messages_cpp _swarm_control_package_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv" NAME_WE)
 add_dependencies(swarm_control_package_generate_messages_cpp _swarm_control_package_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv" NAME_WE)
+add_dependencies(swarm_control_package_generate_messages_cpp _swarm_control_package_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(swarm_control_package_gencpp)
@@ -90,13 +103,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS swarm_control_package_generate_mess
 _generate_msg_eus(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/swarm_control_package
 )
 _generate_msg_eus(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/swarm_control_package
 )
 
@@ -104,7 +117,13 @@ _generate_msg_eus(swarm_control_package
 _generate_srv_eus(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/swarm_control_package
+)
+_generate_srv_eus(swarm_control_package
+  "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/swarm_control_package
 )
 
@@ -126,6 +145,8 @@ get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_packa
 add_dependencies(swarm_control_package_generate_messages_eus _swarm_control_package_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv" NAME_WE)
 add_dependencies(swarm_control_package_generate_messages_eus _swarm_control_package_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv" NAME_WE)
+add_dependencies(swarm_control_package_generate_messages_eus _swarm_control_package_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(swarm_control_package_geneus)
@@ -139,13 +160,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS swarm_control_package_generate_mess
 _generate_msg_lisp(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/swarm_control_package
 )
 _generate_msg_lisp(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/swarm_control_package
 )
 
@@ -153,7 +174,13 @@ _generate_msg_lisp(swarm_control_package
 _generate_srv_lisp(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/swarm_control_package
+)
+_generate_srv_lisp(swarm_control_package
+  "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/swarm_control_package
 )
 
@@ -175,6 +202,8 @@ get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_packa
 add_dependencies(swarm_control_package_generate_messages_lisp _swarm_control_package_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv" NAME_WE)
 add_dependencies(swarm_control_package_generate_messages_lisp _swarm_control_package_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv" NAME_WE)
+add_dependencies(swarm_control_package_generate_messages_lisp _swarm_control_package_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(swarm_control_package_genlisp)
@@ -188,13 +217,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS swarm_control_package_generate_mess
 _generate_msg_nodejs(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/swarm_control_package
 )
 _generate_msg_nodejs(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/swarm_control_package
 )
 
@@ -202,7 +231,13 @@ _generate_msg_nodejs(swarm_control_package
 _generate_srv_nodejs(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/swarm_control_package
+)
+_generate_srv_nodejs(swarm_control_package
+  "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/swarm_control_package
 )
 
@@ -224,6 +259,8 @@ get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_packa
 add_dependencies(swarm_control_package_generate_messages_nodejs _swarm_control_package_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv" NAME_WE)
 add_dependencies(swarm_control_package_generate_messages_nodejs _swarm_control_package_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv" NAME_WE)
+add_dependencies(swarm_control_package_generate_messages_nodejs _swarm_control_package_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(swarm_control_package_gennodejs)
@@ -237,13 +274,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS swarm_control_package_generate_mess
 _generate_msg_py(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/swarm_control_package
 )
 _generate_msg_py(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/swarm_control_package
 )
 
@@ -251,7 +288,13 @@ _generate_msg_py(swarm_control_package
 _generate_srv_py(swarm_control_package
   "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/swarm_control_package
+)
+_generate_srv_py(swarm_control_package
+  "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/swarm_control_package
 )
 
@@ -272,6 +315,8 @@ add_dependencies(swarm_control_package_generate_messages_py _swarm_control_packa
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg" NAME_WE)
 add_dependencies(swarm_control_package_generate_messages_py _swarm_control_package_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv" NAME_WE)
+add_dependencies(swarm_control_package_generate_messages_py _swarm_control_package_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv" NAME_WE)
 add_dependencies(swarm_control_package_generate_messages_py _swarm_control_package_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

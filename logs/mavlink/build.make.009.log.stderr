@@ -1,0 +1,6 @@
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:351: CMakeFiles/paparazzi.xml-v1.0.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:324: CMakeFiles/paparazzi.xml-v2.0.dir/all] Error 2
+make: *** [Makefile:118: all] Interrupt

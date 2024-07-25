@@ -3,6 +3,6 @@
           ID
           DRONE_NAME-VAL
           DRONE_NAME
-          RESPONSE-VAL
-          RESPONSE
+          OUTPUT_STRING-VAL
+          OUTPUT_STRING
 ))

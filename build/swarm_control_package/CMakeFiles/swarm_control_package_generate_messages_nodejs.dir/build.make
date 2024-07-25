@@ -56,36 +56,42 @@ include CMakeFiles/swarm_control_package_generate_messages_nodejs.dir/progress.m
 CMakeFiles/swarm_control_package_generate_messages_nodejs: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js
 CMakeFiles/swarm_control_package_generate_messages_nodejs: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js
 CMakeFiles/swarm_control_package_generate_messages_nodejs: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/NewTarget.js
+CMakeFiles/swarm_control_package_generate_messages_nodejs: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/SpecialCommands.js
 
 
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js: /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js: /opt/ros/noetic/share/geometry_msgs/msg/Transform.msg
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js: /opt/ros/noetic/share/geometry_msgs/msg/Transform.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from swarm_control_package/FiducialTransform.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg -Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg -p swarm_control_package -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg
 
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Transform.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Transform.msg
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from swarm_control_package/FiducialTransformArray.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg -Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg -p swarm_control_package -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg
 
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/NewTarget.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/NewTarget.js: /home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/NewTarget.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from swarm_control_package/NewTarget.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv -Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg -p swarm_control_package -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv
+
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/SpecialCommands.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/SpecialCommands.js: /home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from swarm_control_package/SpecialCommands.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv -Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg -p swarm_control_package -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv
 
 swarm_control_package_generate_messages_nodejs: CMakeFiles/swarm_control_package_generate_messages_nodejs
 swarm_control_package_generate_messages_nodejs: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransform.js
 swarm_control_package_generate_messages_nodejs: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/msg/FiducialTransformArray.js
 swarm_control_package_generate_messages_nodejs: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/NewTarget.js
+swarm_control_package_generate_messages_nodejs: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/gennodejs/ros/swarm_control_package/srv/SpecialCommands.js
 swarm_control_package_generate_messages_nodejs: CMakeFiles/swarm_control_package_generate_messages_nodejs.dir/build.make
 
 .PHONY : swarm_control_package_generate_messages_nodejs

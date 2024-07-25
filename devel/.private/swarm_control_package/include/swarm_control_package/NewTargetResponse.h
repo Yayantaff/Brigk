@@ -24,17 +24,17 @@ struct NewTargetResponse_
   typedef NewTargetResponse_<ContainerAllocator> Type;
 
   NewTargetResponse_()
-    : response()  {
+    : output_string()  {
     }
   NewTargetResponse_(const ContainerAllocator& _alloc)
-    : response(_alloc)  {
+    : output_string(_alloc)  {
   (void)_alloc;
     }
 
 
 
-   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _response_type;
-  _response_type response;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _output_string_type;
+  _output_string_type output_string;
 
 
 
@@ -65,7 +65,7 @@ return s;
 template<typename ContainerAllocator1, typename ContainerAllocator2>
 bool operator==(const ::swarm_control_package::NewTargetResponse_<ContainerAllocator1> & lhs, const ::swarm_control_package::NewTargetResponse_<ContainerAllocator2> & rhs)
 {
-  return lhs.response == rhs.response;
+  return lhs.output_string == rhs.output_string;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -122,12 +122,12 @@ struct MD5Sum< ::swarm_control_package::NewTargetResponse_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "6de314e2dc76fbff2b6244a6ad70b68d";
+    return "016361cdee7e84e8c448cca68658d16b";
   }
 
   static const char* value(const ::swarm_control_package::NewTargetResponse_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x6de314e2dc76fbffULL;
-  static const uint64_t static_value2 = 0x2b6244a6ad70b68dULL;
+  static const uint64_t static_value1 = 0x016361cdee7e84e8ULL;
+  static const uint64_t static_value2 = 0xc448cca68658d16bULL;
 };
 
 template<class ContainerAllocator>
@@ -146,7 +146,7 @@ struct Definition< ::swarm_control_package::NewTargetResponse_<ContainerAllocato
 {
   static const char* value()
   {
-    return "string response\n"
+    return "string output_string\n"
 ;
   }
 
@@ -165,7 +165,7 @@ namespace serialization
   {
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
-      stream.next(m.response);
+      stream.next(m.output_string);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -184,8 +184,8 @@ struct Printer< ::swarm_control_package::NewTargetResponse_<ContainerAllocator> 
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::swarm_control_package::NewTargetResponse_<ContainerAllocator>& v)
   {
-    s << indent << "response: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.response);
+    s << indent << "output_string: ";
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.output_string);
   }
 };
 

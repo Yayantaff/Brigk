@@ -136,7 +136,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swarm_control_package/srv" TYPE FILE FILES "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swarm_control_package/srv" TYPE FILE FILES
+    "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv"
+    "/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -184,6 +187,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swarm_control_package" TYPE FILE FILES "/home/grsh/catkin_ws05/src/swarm_control_package/package.xml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/swarm_control_package" TYPE PROGRAM FILES "/home/grsh/catkin_ws05/build/swarm_control_package/catkin_generated/installspace/swarm_control_program_node.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

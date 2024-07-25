@@ -56,41 +56,47 @@ include CMakeFiles/swarm_control_package_generate_messages_eus.dir/progress.make
 CMakeFiles/swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l
 CMakeFiles/swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l
 CMakeFiles/swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/NewTarget.l
+CMakeFiles/swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/SpecialCommands.l
 CMakeFiles/swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/manifest.l
 
 
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l: /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l: /opt/ros/noetic/share/geometry_msgs/msg/Transform.msg
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l: /opt/ros/noetic/share/geometry_msgs/msg/Transform.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from swarm_control_package/FiducialTransform.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg -Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg -p swarm_control_package -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg
 
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Transform.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Transform.msg
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from swarm_control_package/FiducialTransformArray.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg -Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg -p swarm_control_package -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg
 
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/NewTarget.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/NewTarget.l: /home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv
-/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/NewTarget.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from swarm_control_package/NewTarget.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv -Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg -p swarm_control_package -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv
 
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/SpecialCommands.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/SpecialCommands.l: /home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from swarm_control_package/SpecialCommands.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv -Iswarm_control_package:/home/grsh/catkin_ws05/src/swarm_control_package/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Ifiducial_msgs:/home/grsh/catkin_ws05/src/fiducials/fiducial_msgs/msg -p swarm_control_package -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv
+
 /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for swarm_control_package"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grsh/catkin_ws05/build/swarm_control_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp manifest code for swarm_control_package"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package swarm_control_package std_msgs geometry_msgs fiducial_msgs
 
 swarm_control_package_generate_messages_eus: CMakeFiles/swarm_control_package_generate_messages_eus
 swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransform.l
 swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/msg/FiducialTransformArray.l
 swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/NewTarget.l
+swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/srv/SpecialCommands.l
 swarm_control_package_generate_messages_eus: /home/grsh/catkin_ws05/devel/.private/swarm_control_package/share/roseus/ros/swarm_control_package/manifest.l
 swarm_control_package_generate_messages_eus: CMakeFiles/swarm_control_package_generate_messages_eus.dir/build.make
 

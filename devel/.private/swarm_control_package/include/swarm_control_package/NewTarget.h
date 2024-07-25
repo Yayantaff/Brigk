@@ -40,7 +40,7 @@ template<>
 struct MD5Sum< ::swarm_control_package::NewTarget > {
   static const char* value()
   {
-    return "02e92aea6f3587911e71e635adcba734";
+    return "c474dafb5d56d13eb189af9f6d052132";
   }
 
   static const char* value(const ::swarm_control_package::NewTarget&) { return value(); }

@@ -29,7 +29,7 @@ class NewTargetRequest {
         this.id = initObj.id
       }
       else {
-        this.id = 0;
+        this.id = '';
       }
       if (initObj.hasOwnProperty('drone_name')) {
         this.drone_name = initObj.drone_name
@@ -43,7 +43,7 @@ class NewTargetRequest {
   static serialize(obj, buffer, bufferOffset) {
     // Serializes a message object of type NewTargetRequest
     // Serialize message field [id]
-    bufferOffset = _serializer.int32(obj.id, buffer, bufferOffset);
+    bufferOffset = _serializer.string(obj.id, buffer, bufferOffset);
     // Serialize message field [drone_name]
     bufferOffset = _serializer.string(obj.drone_name, buffer, bufferOffset);
     return bufferOffset;
@@ -54,7 +54,7 @@ class NewTargetRequest {
     let len;
     let data = new NewTargetRequest(null);
     // Deserialize message field [id]
-    data.id = _deserializer.int32(buffer, bufferOffset);
+    data.id = _deserializer.string(buffer, bufferOffset);
     // Deserialize message field [drone_name]
     data.drone_name = _deserializer.string(buffer, bufferOffset);
     return data;
@@ -62,6 +62,7 @@ class NewTargetRequest {
 
   static getMessageSize(object) {
     let length = 0;
+    length += _getByteLength(object.id);
     length += _getByteLength(object.drone_name);
     return length + 8;
   }
@@ -73,14 +74,13 @@ class NewTargetRequest {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '1712d6c3933db4cf57fb1ad545ce3c20';
+    return '560e5de15c890c77e1dea732564baa04';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    int32 id
-    #geometry_msgs/Point position
+    string id
     string drone_name
     
     `;
@@ -96,7 +96,7 @@ class NewTargetRequest {
       resolved.id = msg.id;
     }
     else {
-      resolved.id = 0
+      resolved.id = ''
     }
 
     if (msg.drone_name !== undefined) {
@@ -114,22 +114,22 @@ class NewTargetResponse {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
-      this.response = null;
+      this.output_string = null;
     }
     else {
-      if (initObj.hasOwnProperty('response')) {
-        this.response = initObj.response
+      if (initObj.hasOwnProperty('output_string')) {
+        this.output_string = initObj.output_string
       }
       else {
-        this.response = '';
+        this.output_string = '';
       }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
     // Serializes a message object of type NewTargetResponse
-    // Serialize message field [response]
-    bufferOffset = _serializer.string(obj.response, buffer, bufferOffset);
+    // Serialize message field [output_string]
+    bufferOffset = _serializer.string(obj.output_string, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -137,14 +137,14 @@ class NewTargetResponse {
     //deserializes a message object of type NewTargetResponse
     let len;
     let data = new NewTargetResponse(null);
-    // Deserialize message field [response]
-    data.response = _deserializer.string(buffer, bufferOffset);
+    // Deserialize message field [output_string]
+    data.output_string = _deserializer.string(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
     let length = 0;
-    length += _getByteLength(object.response);
+    length += _getByteLength(object.output_string);
     return length + 4;
   }
 
@@ -155,13 +155,13 @@ class NewTargetResponse {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '6de314e2dc76fbff2b6244a6ad70b68d';
+    return '016361cdee7e84e8c448cca68658d16b';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    string response
+    string output_string
     
     `;
   }
@@ -172,11 +172,11 @@ class NewTargetResponse {
       msg = {};
     }
     const resolved = new NewTargetResponse(null);
-    if (msg.response !== undefined) {
-      resolved.response = msg.response;
+    if (msg.output_string !== undefined) {
+      resolved.output_string = msg.output_string;
     }
     else {
-      resolved.response = ''
+      resolved.output_string = ''
     }
 
     return resolved;
@@ -186,6 +186,6 @@ class NewTargetResponse {
 module.exports = {
   Request: NewTargetRequest,
   Response: NewTargetResponse,
-  md5sum() { return '02e92aea6f3587911e71e635adcba734'; },
+  md5sum() { return 'c474dafb5d56d13eb189af9f6d052132'; },
   datatype() { return 'swarm_control_package/NewTarget'; }
 };

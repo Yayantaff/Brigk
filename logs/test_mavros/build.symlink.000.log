@@ -1,5 +1,0 @@
-Symlinking /home/grsh/catkin_ws05/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
-Symlinking /home/grsh/catkin_ws05/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
-Symlinking /home/grsh/catkin_ws05/devel/lib/libmavros_sitl_test.so
-Symlinking /home/grsh/catkin_ws05/devel/lib/pkgconfig/test_mavros.pc
-Symlinking /home/grsh/catkin_ws05/devel/lib/test_mavros/sitl_test_node

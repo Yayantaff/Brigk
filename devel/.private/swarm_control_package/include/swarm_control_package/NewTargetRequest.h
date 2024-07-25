@@ -24,18 +24,18 @@ struct NewTargetRequest_
   typedef NewTargetRequest_<ContainerAllocator> Type;
 
   NewTargetRequest_()
-    : id(0)
+    : id()
     , drone_name()  {
     }
   NewTargetRequest_(const ContainerAllocator& _alloc)
-    : id(0)
+    : id(_alloc)
     , drone_name(_alloc)  {
   (void)_alloc;
     }
 
 
 
-   typedef int32_t _id_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _id_type;
   _id_type id;
 
    typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _drone_name_type;
@@ -128,12 +128,12 @@ struct MD5Sum< ::swarm_control_package::NewTargetRequest_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "1712d6c3933db4cf57fb1ad545ce3c20";
+    return "560e5de15c890c77e1dea732564baa04";
   }
 
   static const char* value(const ::swarm_control_package::NewTargetRequest_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x1712d6c3933db4cfULL;
-  static const uint64_t static_value2 = 0x57fb1ad545ce3c20ULL;
+  static const uint64_t static_value1 = 0x560e5de15c890c77ULL;
+  static const uint64_t static_value2 = 0xe1dea732564baa04ULL;
 };
 
 template<class ContainerAllocator>
@@ -152,8 +152,7 @@ struct Definition< ::swarm_control_package::NewTargetRequest_<ContainerAllocator
 {
   static const char* value()
   {
-    return "int32 id\n"
-"#geometry_msgs/Point position\n"
+    return "string id\n"
 "string drone_name\n"
 ;
   }
@@ -194,7 +193,7 @@ struct Printer< ::swarm_control_package::NewTargetRequest_<ContainerAllocator> >
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::swarm_control_package::NewTargetRequest_<ContainerAllocator>& v)
   {
     s << indent << "id: ";
-    Printer<int32_t>::stream(s, indent + "  ", v.id);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.id);
     s << indent << "drone_name: ";
     Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.drone_name);
   }

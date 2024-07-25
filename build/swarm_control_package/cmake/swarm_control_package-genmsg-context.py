@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransform.msg;/home/grsh/catkin_ws05/src/swarm_control_package/msg/FiducialTransformArray.msg"
-services_str = "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv"
+services_str = "/home/grsh/catkin_ws05/src/swarm_control_package/srv/NewTarget.srv;/home/grsh/catkin_ws05/src/swarm_control_package/srv/SpecialCommands.srv"
 pkg_name = "swarm_control_package"
 dependencies_str = "std_msgs;geometry_msgs;fiducial_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"
